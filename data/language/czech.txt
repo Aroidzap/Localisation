@@ -1,4 +1,4 @@
-# STR_XXXX part is read and XXXX becomes the string id number.
+﻿# STR_XXXX part is read and XXXX becomes the string id number.
 # Everything after the colon and before the new line will be saved as the string.
 # Use # at the beginning of a line to leave a comment.
 STR_0000    :
@@ -830,12 +830,12 @@ STR_0825    :Zvolené jméno je již používáno
 STR_0826    :Definováno příliš mnoho jmen
 STR_0827    :Nedostatek financí - potřeba {CURRENCY2DP}
 STR_0828    :{SMALLFONT}{BLACK}Zavřít okno
-STR_0829    :{SMALLFONT}{BLACK}Window title - Drag this to move window
+STR_0829    :{SMALLFONT}{BLACK}Titulek okna - přetáhnutím posunete okno
 STR_0830    :{SMALLFONT}{BLACK}Přiblížit pohled
-STR_0831    :{SMALLFONT}{BLACK}ZOddálit pohled
+STR_0831    :{SMALLFONT}{BLACK}Oddálit pohled
 STR_0832    :{SMALLFONT}{BLACK}Otočit o 90{DEGREE} po směru hodinových ručiček
 STR_0833    :{SMALLFONT}{BLACK}Pozastavit hru
-STR_0834    :{SMALLFONT}{BLACK}Disk and game options
+STR_0834    :{SMALLFONT}{BLACK}Možnosti
 STR_0835    :Game initialisation failed
 STR_0836    :Nelze spustit hru minimalizovanou.
 STR_0837    :Unable to initialise graphics system
@@ -939,11 +939,11 @@ STR_0933    :Nejdříve zvyš nebo sniž povrch
 STR_0934    :Vstup na atrakci v cestě
 STR_0935    :Výtup z atrakce v cestě
 STR_0936    :Vchod do parku v cestě
-STR_0937    :{SMALLFONT}{BLACK}View options
+STR_0937    :{SMALLFONT}{BLACK}Možnosti pohledu
 STR_0938    :{SMALLFONT}{BLACK}Adjust land height and slope
-STR_0939    :POdzemní/Vnitří pohled
-STR_0940    :Remove Base Land
-STR_0941    :Remove Vertical Faces
+STR_0939    :Podzemní/vnitří pohled
+STR_0940    :Odstranit zem
+STR_0941    :Odstranit stěny
 STR_0942    :Průhledné atrakce
 STR_0943    :Průhledná výzdoba
 STR_0944    :Uložit
@@ -1156,8 +1156,8 @@ STR_1150    :Three-quarter load
 STR_1151    :Full load
 STR_1152    :Any load
 STR_1153    :Height Marks on Ride Tracks
-STR_1154    :Height Marks on Land
-STR_1155    :Height Marks on Paths
+STR_1154    :Výškové značky na zemi
+STR_1155    :Výškové značky na cestách
 STR_1156    :{MOVE_X}{SMALLFONT}{STRINGID}
 STR_1157    :{TICK}{MOVE_X}{SMALLFONT}{STRINGID}
 STR_1158    :Tohle nelze odstranit...
@@ -1848,7 +1848,7 @@ STR_1842    :Favourite of: {COMMA16} guest
 STR_1843    :Favourite of: {COMMA16} guests
 STR_1844    :{SMALLFONT}{BLACK}Select information type to show in ride/attraction list
 STR_1845    :{MONTHYEAR}
-STR_1846    :{COMMA16} guests
+STR_1846    :{COMMA16} hostů
 STR_1847    :{INLINE_SPRITE}{11}{20}{00}{00}{COMMA16} guests
 STR_1848    :{INLINE_SPRITE}{10}{20}{00}{00}{COMMA16} guests
 STR_1849    :{WINDOW_COLOUR_2}Play music
@@ -1925,10 +1925,10 @@ STR_1917    :{POP16}{POP16}{POP16}{CURRENCY}
 STR_1918    :Can't borrow any more money!
 STR_1919    :Not enough cash available!
 STR_1920    :Can't pay back loan!
-STR_1921    :{SMALLFONT}{BLACK}Start a new game
-STR_1922    :{SMALLFONT}{BLACK}Continue playing a saved game
-STR_1923    :{SMALLFONT}{BLACK}Show tutorial
-STR_1924    :{SMALLFONT}{BLACK}Exit
+STR_1921    :{SMALLFONT}{BLACK}Začít novou hru
+STR_1922    :{SMALLFONT}{BLACK}Pokračovat v uložené hře
+STR_1923    :{SMALLFONT}{BLACK}Ukázat tutoriál
+STR_1924    :{SMALLFONT}{BLACK}Ukončit
 STR_1925    :Can't place person here...
 STR_1926    :{SMALLFONT}
 STR_1927    :{YELLOW}{STRINGID} has broken down
@@ -2224,10 +2224,10 @@ STR_2216    :{WINDOW_COLOUR_2}{COMMA16}{DEGREE}C
 STR_2217    :{WINDOW_COLOUR_2}{COMMA16}{DEGREE}F
 STR_2218    :{RED}{STRINGID} on {STRINGID} hasn't returned to the {STRINGID} yet!{NEWLINE}Check whether it is stuck or has stalled
 STR_2219    :{RED}{COMMA16} people have died in an accident on {STRINGID}
-STR_2220    :{WINDOW_COLOUR_2}Park Rating: {BLACK}{COMMA16}
-STR_2221    :{SMALLFONT}{BLACK}Park Rating: {COMMA16}
+STR_2220    :{WINDOW_COLOUR_2}Hodnocení parku: {BLACK}{COMMA16}
+STR_2221    :{SMALLFONT}{BLACK}Hodnocení parku: {COMMA16}
 STR_2222    :{SMALLFONT}{BLACK}{STRINGID}
-STR_2223    :{WINDOW_COLOUR_2}Guests in park: {BLACK}{COMMA16}
+STR_2223    :{WINDOW_COLOUR_2}Hosté v parku: {BLACK}{COMMA16}
 STR_2224    :{WINDOW_COLOUR_2}Cash: {BLACK}{CURRENCY2DP}
 STR_2225    :{WINDOW_COLOUR_2}Cash: {RED}{CURRENCY2DP}
 STR_2226    :{WINDOW_COLOUR_2}Park value: {BLACK}{CURRENCY}
@@ -2366,9 +2366,9 @@ STR_2358    :Jednotky
 STR_2359    :Reálné hodnoty
 STR_2360    :{WINDOW_COLOUR_2}Rozlišení displeje:
 STR_2361    :Vyhlazování krajiny
-STR_2362    :{SMALLFONT}{BLACK}Toggle landscape tile edge smoothing on/off
+STR_2362    :{SMALLFONT}{BLACK}Zapnute/vypne vyhlazování hran dlaždic krajiny
 STR_2363    :Vykreslit mřížku na krajině
-STR_2364    :{SMALLFONT}{BLACK}Toggle gridlines on landscape on/off
+STR_2364    :{SMALLFONT}{BLACK}Zapnute/vypne mřížku na krajině
 STR_2365    :The bank refuses to increase your loan!
 STR_2366    :Celsius ({DEGREE}C)
 STR_2367    :Fahrenheit ({DEGREE}F)
@@ -2686,7 +2686,7 @@ STR_2677    :???
 STR_2678    :???
 STR_2679    :???
 STR_2680    :All research complete
-STR_2681    :{MEDIUMFONT}{BLACK}Increases your money by {CURRENCY}
+STR_2681    :{MEDIUMFONT}{BLACK}Zvýší počet peněz o {CURRENCY}
 STR_2682    :<not used anymore>
 STR_2683    :<not used anymore>
 STR_2684    :{SMALLFONT}{BLACK}Large group of peeps arrive
@@ -2742,7 +2742,7 @@ STR_2733    :{COMMA16}m
 STR_2734    :{COMMA16}mph
 STR_2735    :{COMMA16}km/h
 STR_2736    :{MONTH}, Year {COMMA16}
-STR_2737    :{STRINGID} {MONTH}, Year {COMMA16}
+STR_2737    :{STRINGID} {MONTH}, rok {COMMA16}
 STR_2738    :Hudba úvodní obrazovky:
 STR_2739    :Žádná
 STR_2740    :RollerCoaster Tycoon 1
@@ -2805,8 +2805,8 @@ STR_2794    :{WINDOW_COLOUR_2}Completed by: {BLACK}{STRINGID}{NEWLINE}{WINDOW_CO
 STR_2795    :Sort
 STR_2796    :{SMALLFONT}{BLACK}Sort the ride list into order using the information type displayed
 STR_2797    :Posouvat pohled při najetí myší k okraji
-STR_2798    :{SMALLFONT}{BLACK}Select whether to scroll the view when the mouse pointer is at the screen edge
-STR_2799    :{SMALLFONT}{BLACK}View or change control key assignments
+STR_2798    :{SMALLFONT}{BLACK}Vybrat, jestli se bude posouvat pohled při najení myši k okraji obrazovky
+STR_2799    :{SMALLFONT}{BLACK}Zobrazit nebo změnit klávesové zkratky
 STR_2800    :{WINDOW_COLOUR_2}Total admissions: {BLACK}{COMMA32}
 STR_2801    :{WINDOW_COLOUR_2}Income from admissions: {BLACK}{CURRENCY2DP}
 STR_2802    :Map
@@ -3348,11 +3348,11 @@ STR_3337    :<not used anymore>
 STR_3338    :{BLACK}Custom-designed layout
 STR_3339    :{BLACK}{COMMA16} design available, or custom-designed layout
 STR_3340    :{BLACK}{COMMA16} designs available, or custom-designed layout
-STR_3341    :{SMALLFONT}{BLACK}Game tools
-STR_3342    :Scenario Editor
-STR_3343    :Convert Saved Game to Scenario
-STR_3344    :Roller Coaster Designer
-STR_3345    :Track Designs Manager
+STR_3341    :{SMALLFONT}{BLACK}Nástroje
+STR_3342    :Editor scénářů
+STR_3343    :Převést uloženou hru na scénář
+STR_3344    :Návrhář horských drah
+STR_3345    :Správce horských drah
 STR_3346    :Can't save track design...
 STR_3347    :Ride is too large, contains too many elements, or scenery is too spread out
 STR_3348    :Rename
@@ -3481,13 +3481,13 @@ STR_5139    :{WHITE}{STRINGID}
 STR_5140    :Disable brakes failure
 STR_5141    :Disable all breakdowns
 STR_5142    :Normální rychlost
-STR_5143    :Quick Speed
-STR_5144    :Fast Speed
-STR_5145    :Turbo Speed
-STR_5146    :Hyper Speed
-STR_5147    :Cheats
-STR_5148    :{SMALLFONT}{BLACK}Change the game speed
-STR_5149    :{SMALLFONT}{BLACK}Show cheat options
+STR_5143    :Rychle
+STR_5144    :Velmi rychle
+STR_5145    :Turbo rychle
+STR_5146    :Super rychle
+STR_5147    :Cheaty
+STR_5148    :{SMALLFONT}{BLACK}Změnit rychlost hry
+STR_5149    :{SMALLFONT}{BLACK}Zobrazit nastavení cheatů
 STR_5150    :Enable debugging tools
 STR_5151    :,
 STR_5152    :.
@@ -3496,8 +3496,8 @@ STR_5154    :Hardwarové zobrazování
 STR_5155    :Allow testing of unfinished tracks
 STR_5156    :{SMALLFONT}{BLACK}Allows testing of most ride types even when the track is unfinished, does not apply to block sectioned modes
 STR_5157    :Unlock all prices
-STR_5158    :Quit to menu
-STR_5159    :Exit OpenRCT2
+STR_5158    :Ukončit do menu
+STR_5159    :Ukončit OpenRCT2
 STR_5160    :{POP16}{MONTH} {PUSH16}{PUSH16}{STRINGID}, Year {POP16}{COMMA16}
 STR_5161    :Formát data:
 STR_5162    :Den/Měsíc/Rok
@@ -3516,9 +3516,9 @@ STR_5174    :{SMALLFONT}{BLACK}Will use Twitch chat messages preceded by !news f
 STR_5175    :Input the name of your Twitch channel
 STR_5176    :Enable Twitch integration
 STR_5177    :Režim zobrazení:
-STR_5178    :{SMALLFONT}{BLACK}Show financial cheats
-STR_5179    :{SMALLFONT}{BLACK}Show guest cheats
-STR_5180    :{SMALLFONT}{BLACK}Show park cheats
+STR_5178    :{SMALLFONT}{BLACK}Zobrazit cheaty ohledně financí
+STR_5179    :{SMALLFONT}{BLACK}Zobrazit cheaty ohledně hostů
+STR_5180    :{SMALLFONT}{BLACK}Zobrazit cheaty ohledně parku
 STR_5181    :{SMALLFONT}{BLACK}Show ride cheats
 STR_5182    :{INT32}
 STR_5183    :Base height
@@ -3598,17 +3598,17 @@ STR_5256    :Create a new theme to make changes to
 STR_5257    :{SMALLFONT}{BLACK}Create a new theme based on the current one
 STR_5258    :{SMALLFONT}{BLACK}Delete the current theme
 STR_5259    :{SMALLFONT}{BLACK}Rename the current theme
-STR_5260    :Giant Screenshot
+STR_5260    :Snímek celé mapy
 STR_5261    :Filter
 STR_5262    :Wacky Worlds
 STR_5263    :Time Twister
 STR_5264    :Custom
 STR_5265    :{SMALLFONT}{BLACK}Select which content sources are visible
-STR_5266    :{SMALLFONT}{BLACK}Display
-STR_5267    :{SMALLFONT}{BLACK}Culture and Units
-STR_5268    :{SMALLFONT}{BLACK}Audio
-STR_5269    :{SMALLFONT}{BLACK}Controls and interface
-STR_5270    :{SMALLFONT}{BLACK}Miscellaneous
+STR_5266    :{SMALLFONT}{BLACK}Zobrazení
+STR_5267    :{SMALLFONT}{BLACK}Oblast a jednotky
+STR_5268    :{SMALLFONT}{BLACK}Zvuk
+STR_5269    :{SMALLFONT}{BLACK}Ovládání a rozhraní
+STR_5270    :{SMALLFONT}{BLACK}Ostatní
 STR_5271    :{SMALLFONT}{BLACK}Twitch
 STR_5272    :{SMALLFONT}{BLACK}Small Scenery
 STR_5273    :{SMALLFONT}{BLACK}Large Scenery
@@ -3639,8 +3639,8 @@ STR_5297    :{SMALLFONT}{BLACK}Open park
 STR_5298    :{RED}{STRINGID}
 STR_5299    :{LIGHTPINK}{STRINGID}
 STR_5300    :{SMALLFONT}{BLACK}Quick fire staff
-STR_5301    :{MEDIUMFONT}{BLACK}Clear your loan
-STR_5302    :Clear loan
+STR_5301    :{MEDIUMFONT}{BLACK}Smaže vaši půjčku
+STR_5302    :Smazat půjčku
 STR_5303    :Allow building in pause mode
 STR_5304    :Title Sequence:
 STR_5305    :RollerCoaster Tycoon 1
@@ -3683,20 +3683,20 @@ STR_5341    :Flags
 STR_5342    :Choose a map tile
 STR_5343    :Automatically place staff
 STR_5344    :Changelog
-STR_5345    :Financial cheats
-STR_5346    :Guest cheats
-STR_5347    :Park cheats
+STR_5345    :Cheaty ohledně financí
+STR_5346    :Cheaty ohledně hostů
+STR_5347    :Cheaty ohledně parku
 STR_5348    :Ride cheats
 STR_5349    :{SMALLFONT}{BLACK}All Rides
 STR_5350    :Max
 STR_5351    :Min
-STR_5352    :{BLACK}Happiness:
-STR_5353    :{BLACK}Energy:
-STR_5354    :{BLACK}Hunger:
-STR_5355    :{BLACK}Thirst:
-STR_5356    :{BLACK}Nausea:
-STR_5357    :{BLACK}Nausea tolerance:
-STR_5358    :{BLACK}Bathroom:
+STR_5352    :{BLACK}Radost:
+STR_5353    :{BLACK}Energie:
+STR_5354    :{BLACK}Hlad:
+STR_5355    :{BLACK}Žízeň:
+STR_5356    :{BLACK}Nevolnost:
+STR_5357    :{BLACK}Tolerance nevolnosti:
+STR_5358    :{BLACK}Toaleta:
 STR_5359    :Remove guests
 STR_5360    :{SMALLFONT}{BLACK}Removes all guests from the map
 STR_5361    :Give all guests:
@@ -3796,10 +3796,10 @@ STR_5454    :Nelimitovat FPS
 STR_5455    :Enable sandbox mode
 STR_5456    :Disable clearance checks
 STR_5457    :Disable support limits
-STR_5458    :Rotate clockwise
-STR_5459    :Rotate anti-clockwise
+STR_5458    :Otočit po směru hodinových ručiček
+STR_5459    :Otočit proti směru hodinových ručiček
 STR_5460    :Rotate view anti-clockwise
-STR_5461    :Set guests' parameters
+STR_5461    :Nastavit parametry hostů
 STR_5462    :{CURRENCY}
 STR_5463    :Goal: Have fun!
 STR_5464    :General
@@ -3841,7 +3841,7 @@ STR_5499    :Jméno hráče:
 STR_5500    :Přidat Server
 STR_5501    :Spustit Server
 STR_5502    :Hra více hráčů
-STR_5503    :Enter hostname or IP address:
+STR_5503    :Zadejte hostitelské jméno nebo IP addresu:
 STR_5504    :{SMALLFONT}{BLACK}Show multiplayer status
 STR_5505    :Nelze se připojit k serveru.
 STR_5506    :Hosté ingnorují intensitu
@@ -3926,7 +3926,7 @@ STR_5584    :SI
 STR_5585    :{SMALLFONT}{BLACK}Unlocks ride operation limits, allowing for things like {VELOCITY} lift hills
 STR_5586    :Automaticky otevírat obchody a stánky
 STR_5587    :{SMALLFONT}{BLACK}When enabled, shops and stalls will be automatically opened after building them
-STR_5588    :{SMALLFONT}{BLACK}Play with other players
+STR_5588    :{SMALLFONT}{BLACK}Hrát s ostatními hráči
 STR_5589    :Notification Settings
 STR_5590    :Park awards
 STR_5591    :Marketing campaign has finished
